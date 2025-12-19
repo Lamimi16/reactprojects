@@ -1,0 +1,63 @@
+/*import "./App.css";
+import { BrowserRouter as Router , Routes,Route } from "react-router-dom";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+
+import Home from "./pages/Home"
+import Weather from "./pages/Weather"
+import About from "./pages/About"
+ export default function App() {
+  return(
+    <Router>
+      <div className="app">
+        <Header/>
+        </div>
+        <NavBar/>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/Weather" element={<Weather/>}/>
+            <Route path="/About" element={<About/>}/>
+          </Routes>
+        </main>
+    </Router>
+  );
+
+ }     */
+
+
+ import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+
+import Home from "./pages/Home";
+import Weather from "./pages/Weather";
+import About from "./pages/About";
+import Auth from "./pages/Auth";
+
+
+export default function App() {
+  return (
+    <Router>
+      <div className="app">
+        <Header />
+        <NavBar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/weather" element={<Weather />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/auth" element={<Auth />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
+  );
+}
+
+
+
+
+
+
