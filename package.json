@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "weather-app",
+=======
+  "name": "first",
+>>>>>>> 32e4bd3b846e1811936a43b9f3111c03c9fa482d
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,10 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.15"
+=======
+>>>>>>> 32e4bd3b846e1811936a43b9f3111c03c9fa482d
   }
 }
